@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Glyph/002.Object/128.login servers/Black</title>
+    <g id="Glyph/002.Object/128.login-servers/Black" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组" transform="translate(2.000000, 3.000000)">
+            <path d="M19,0 C19.5522847,-1.01453063e-16 20,0.44771525 20,1 L20,13 C20,13.5522847 19.5522847,14 19,14 L14,14 L14,12.5 L18.5,12.5 L18.5,1.5 L1.5,1.5 L1.5,12.5 L6,12.5 L6,14 L1,14 C0.44771525,14 6.76353751e-17,13.5522847 0,13 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 L19,0 Z" id="形状结合" fill="#324558"></path>
+            <polygon id="Triangle" fill="#B6C2CD" points="10 12 15 18 5 18"></polygon>
+        </g>
+    </g>
+</svg>
