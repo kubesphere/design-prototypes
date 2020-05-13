@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Glyph/002.Object/010.Calendar/Black</title>
+    <g id="Glyph/002.Object/010.Calendar/Black" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M2,10 L22,10 L22,18 C22,19.1045695 21.1045695,20 20,20 L4,20 C2.8954305,20 2,19.1045695 2,18 L2,10 Z" id="Rectangle-6" fill="#B6C2CD"></path>
+        <polygon id="Combined-Shape" fill="#324558" points="19 6 22 6 22 10 2 10 2 6 5 6 5 4 7 4 7 6 17 6 17 4 19 4"></polygon>
+    </g>
+</svg>

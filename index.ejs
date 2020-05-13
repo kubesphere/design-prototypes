@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KubeSphere Design Prototype</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="app">
+      <div class="navbar">
+        <ul>
+          <li>
+            <img src="./prototypes/img/logo.svg"></img>
+          </li>
+          <li>|</li>
+          <li>Design Prototypes</li>
+        </ul>
+      </div>
+      <div class="wrapper">
+        <div class="menu">
+          <label>Modules</label>
+          <ul>
+            <% data.forEach(function(item, index){ %>
+              <li for="<%= item.Name %>">
+                <a href="#<%= item.Name %>" data-name="<%= item.Name %>">
+                  <%= item.Name %>
+                </a>
+              </li>
+            <% }) %>
+          </ul>
+        </div>
+        <% data.forEach(function(item){ %>
+          <section class="main" data-name="<%= item.Name %>">
+            <div class="module-title">
+              <h3><%= item.Name %></h3>
+              <p><%= item.Description %></p>
+            </div>
+            <ul class="functions">
+                <% item.functionList.forEach(function(funcItem) { %>
+                  <li class="card">
+                    <a href="<%= funcItem.Url %>">
+                      <img
+                        src="<%= funcItem.ImgUrl %>"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title"><%= funcItem.Name %></h5>
+                        <p class="card-text"><%= funcItem.Description %></p>
+                      </div>
+                    </a>
+                  </li>
+              <% }) %>
+            </ul>
+          </section>
+        <% }) %>
+      </div>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.0/jquery.slim.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        var $nav = $('.menu ul > li > a');
+        var $main = $('.main');
+
+        $nav.removeClass('active')
+        $main.hide()
+
+        var select = location.hash.slice(1)
+        if (select) {
+          $nav.filter('[data-name="'  + select + '"]').addClass('active')
+          $main.filter('[data-name="'  + select + '"]').show()
+        } else {
+          $nav.first().addClass('active')
+          $main.first().show()
+        }
+
+        $nav.click(function (e) {
+          var $target = $(e.currentTarget)
+          var name = $target.data('name')
+          $nav.removeClass('active')
+          $target.addClass('active')
+          $main.hide()
+          $('.main[data-name="'+ name +'"]').show()
+        })
+      });
+    </script>
+  </body>
+</html>

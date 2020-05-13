@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Glyph/002.Object/060.Cloud/Black</title>
+    <g id="Glyph/002.Object/060.Cloud/Black" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M12,19 C15.8659932,19 19,15.8659932 19,12 C19,11.4457304 18.9355801,10.9065069 18.8138191,10.3894082 C20.6530139,10.912252 22,12.6044788 22,14.611311 C22,17.035117 20.035117,19 17.611311,19 L17.6079912,19 L12,19 Z" id="Combined-Shape" fill="#324558"></path>
+        <path d="M12,19 L6.3920088,19 C3.96636932,19 2,17.0336307 2,14.6079912 C2,12.5999814 3.347548,10.9067083 5.18765495,10.3831609 C5.91743567,7.29667846 8.69050884,5 12,5 C15.8659932,5 19,8.13400675 19,12 C19,15.8659932 15.8659932,19 12,19 L12,19 Z" id="Combined-Shape" fill="#B6C2CD"></path>
+    </g>
+</svg>

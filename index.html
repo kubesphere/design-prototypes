@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KubeSphere Design Prototype</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="app">
+      <div class="navbar">
+        <ul>
+          <li>
+            <img src="./prototypes/img/logo.svg"></img>
+          </li>
+          <li>|</li>
+          <li>Design Prototypes</li>
+        </ul>
+      </div>
+      <div class="wrapper">
+        <div class="menu">
+          <label>Modules</label>
+          <ul>
+            
+              <li for="ToolBox">
+                <a href="#ToolBox" data-name="ToolBox">
+                  ToolBox
+                </a>
+              </li>
+            
+          </ul>
+        </div>
+        
+          <section class="main" data-name="ToolBox">
+            <div class="module-title">
+              <h3>ToolBox</h3>
+              <p>design prototypes for toolbox</p>
+            </div>
+            <ul class="functions">
+                
+                  <li class="card">
+                    <a href="./prototypes/ToolBox/EventsSearch/index.html">
+                      <img
+                        src="./prototypes/ToolBox/EventsSearch/thumbnail.png"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">EventSearch</h5>
+                        <p class="card-text">for global k8s events search</p>
+                      </div>
+                    </a>
+                  </li>
+              
+            </ul>
+          </section>
+        
+      </div>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.0/jquery.slim.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        var $nav = $('.menu ul > li > a');
+        var $main = $('.main');
+
+        $nav.removeClass('active')
+        $main.hide()
+
+        var select = location.hash.slice(1)
+        if (select) {
+          $nav.filter('[data-name="'  + select + '"]').addClass('active')
+          $main.filter('[data-name="'  + select + '"]').show()
+        } else {
+          $nav.first().addClass('active')
+          $main.first().show()
+        }
+
+        $nav.click(function (e) {
+          var $target = $(e.currentTarget)
+          var name = $target.data('name')
+          $nav.removeClass('active')
+          $target.addClass('active')
+          $main.hide()
+          $('.main[data-name="'+ name +'"]').show()
+        })
+      });
+    </script>
+  </body>
+</html>

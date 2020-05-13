@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Glyph/002.Object/022.Enterprise/Black</title>
+    <g id="Glyph/002.Object/022.Enterprise/Black" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Combined-Shape" fill="#B6C2CD" points="10 4 12 4 12 22 10 22 10 17 7 17 7 22 5 22 5 4 7 4 7 2 10 2"></polygon>
+        <path d="M15.5,12 C17.4329966,12 19,13.5670034 19,15.5 L19,22 L12,22 L12,15.5 C12,13.5670034 13.5670034,12 15.5,12 Z M15.5,17 C16.3284271,17 17,16.3284271 17,15.5 C17,14.6715729 16.3284271,14 15.5,14 C14.6715729,14 14,14.6715729 14,15.5 C14,16.3284271 14.6715729,17 15.5,17 Z" id="Combined-Shape" fill="#324558"></path>
+        <polygon id="Rectangle-11" fill="#324558" points="7 17 10 17 10 22 7 22"></polygon>
+    </g>
+</svg>

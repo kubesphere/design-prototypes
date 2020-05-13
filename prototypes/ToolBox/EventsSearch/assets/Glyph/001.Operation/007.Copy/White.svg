@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Glyph/001.Operation/007.Copy/White</title>
+    <g id="Glyph/001.Operation/007.Copy/White" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M15,6 L10.5,6 C9.67157288,6 9,6.67157288 9,7.5 L9,18 L6.5,18 C5.67157288,18 5,17.3284271 5,16.5 L5,3.5 C5,2.67157288 5.67157288,2 6.5,2 L13.5,2 C14.3284271,2 15,2.67157288 15,3.5 L15,6 Z" id="Combined-Shape" fill="#FFFFFF" opacity="0.400000006"></path>
+        <path d="M10.5,6 L17.5,6 C18.3284271,6 19,6.67157288 19,7.5 L19,20.5 C19,21.3284271 18.3284271,22 17.5,22 L10.5,22 C9.67157288,22 9,21.3284271 9,20.5 L9,7.5 C9,6.67157288 9.67157288,6 10.5,6 Z" id="Rectangle-3-Copy" fill="#FFFFFF" opacity="0.900000036"></path>
+    </g>
+</svg>
