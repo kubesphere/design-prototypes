@@ -5,7 +5,7 @@
   "license": "AGPL-3.0",
   "devDependencies": {
     "ejs": "^3.1.2",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.21"
   },
   "scripts": {
     "build": "node ./script"
